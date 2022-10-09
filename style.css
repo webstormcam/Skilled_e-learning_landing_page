@@ -4,6 +4,13 @@
 }
 
 body {
+
+    width: 100%;
+
+
+}
+
+#content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,15 +83,14 @@ h1 {
 
     header {
         padding: 1rem 3rem;
-        max-width: 768px;
+        max-width: 1000px;
         z-index: 100;
     }
 
     #top-content {
         flex-direction: row;
         justify-content: space-between;
-        max-width: 768px;
-        overflow: hidden;
+        max-width: 1000px;
         position: relative;
         padding: 2rem;
         padding-bottom: 10rem;
@@ -94,15 +100,26 @@ h1 {
     .top-words {
         width: 60%;
         padding-top: 2rem;
-        padding-right: 4rem;
+
     }
 
     .lady {
-        width: 640px;
+        width: 650px;
         position: absolute;
-        left: 24rem;
-        top: -10rem;
+        top: -9rem;
+        right: -16rem;
+
+
+
     }
+
+    picture {
+        width: 50%;
+
+    }
+
+
+
 
 
 }
