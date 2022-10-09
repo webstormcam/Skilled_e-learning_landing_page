@@ -9,6 +9,7 @@ body {
     align-items: center;
     width: 100%;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow: hidden;
 }
 
 header {
@@ -68,4 +69,29 @@ h1 {
 
 .lady {
     width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    #top-content {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 900px;
+        overflow: hidden;
+        position: relative;
+        padding: 2rem;
+        padding-bottom: 10rem;
+    }
+
+    .top-words {
+        width: 50%;
+    }
+
+    .lady {
+        width: 640px;
+        position: absolute;
+        left: 24rem;
+        top: -10rem;
+    }
+
+
 }
