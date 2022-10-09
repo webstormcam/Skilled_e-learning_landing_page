@@ -95,6 +95,7 @@ h1 {
         padding: 2rem;
         padding-bottom: 10rem;
         z-index: 1;
+        width: 100%;
     }
 
     .top-words {
@@ -120,6 +121,22 @@ h1 {
 
 
 
+
+
+}
+
+@media screen and (min-width:1300px) {
+    .lady {
+        width: 991px;
+    }
+
+    header {
+        max-width: 1110px;
+    }
+
+    #top-content {
+        max-width: 1110px;
+    }
 
 
 }
