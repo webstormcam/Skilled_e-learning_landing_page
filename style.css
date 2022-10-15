@@ -119,6 +119,34 @@ h1 {
 
     }
 
+    .grid {
+        display: grid;
+        grid-template-areas: 'graphic graphic'
+            'ui apps '
+            'ill ill'
+            'photo photo'
+            'motion motion';
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 343px 182px 158px 182px 182px;
+        gap: 24px 25px;
+        margin-top: 2em;
+        margin-bottom: 6em;
+    }
+
+
+
+    .grid-item-1 {
+        grid-area: graphic;
+        background-color: #755CDE;
+    }
+
+    .grid-item-2 {
+        grid-area: ui;
+        background-color: #F6A560;
+
+
+    }
+
 
 
 
