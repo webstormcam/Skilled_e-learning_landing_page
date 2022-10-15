@@ -82,39 +82,27 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-areas: 'general general'
-    ;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-template-rows: 120px 182px 158px 182px 182px;
-    gap: 24px 25px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin-top: 2em;
     margin-bottom: 6em;
+    width: 100%;
+    max-width: 600px;
 }
 
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-}
-
-
-
-.grid-item-1 {
-    grid-area: general;
-    color: #ffffff;
-    background: rgb(249, 85, 107);
-    background: linear-gradient(0deg, rgba(249, 85, 107, 1) 27%, rgba(241, 44, 165, 1) 89%);
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 
 }
 
-.grid-item-2 {
-    grid-area: ui;
-    background-color: #F6A560;
 
 
-}
+
+
+
 
 
 
