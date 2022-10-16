@@ -51,8 +51,8 @@ h1 {
 
 .get-started-multi {
     padding: 1rem 2.5rem;
-    background: rgb(249, 85, 107);
-    background: linear-gradient(0deg, rgba(249, 85, 107, 1) 27%, rgba(241, 44, 165, 1) 89%);
+    background: rgb(240, 42, 166);
+    background: linear-gradient(0deg, rgba(240, 42, 166, 1) 45%, rgba(255, 111, 72, 1) 82%);
 }
 
 #top-content {
@@ -132,8 +132,8 @@ h2 {
 }
 
 .check-out {
-    background: rgb(249, 85, 107);
-    background: linear-gradient(0deg, rgba(249, 85, 107, 1) 27%, rgba(241, 44, 165, 1) 89%);
+    background: rgb(240, 42, 166);
+    background: linear-gradient(0deg, rgba(240, 42, 166, 1) 45%, rgba(255, 111, 72, 1) 82%);
     color: #ffffff;
     padding: 2rem;
     font-size: 1.5rem;
