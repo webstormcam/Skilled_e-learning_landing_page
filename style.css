@@ -148,12 +148,15 @@ footer {
     width: 100%;
     background-color: #13183F;
     padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .get-started-crazy-color {
@@ -185,6 +188,11 @@ footer {
         padding: 1rem 3rem;
         max-width: 1000px;
         z-index: 100;
+    }
+
+    #footer-items {
+        max-width: 1000px;
+        padding: 1rem 3rem;
     }
 
     #top-content {
@@ -258,6 +266,10 @@ footer {
     }
 
     header {
+        max-width: 1110px;
+    }
+
+    #footer-items {
         max-width: 1110px;
     }
 
