@@ -132,6 +132,8 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     margin-top: 1rem;
+    position: absolute;
+    bottom: 0rem;
 }
 
 .check-out {
