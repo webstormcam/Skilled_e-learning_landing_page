@@ -132,8 +132,7 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     margin-top: 1rem;
-    position: absolute;
-    bottom: 0rem;
+
 }
 
 .check-out {
@@ -258,6 +257,18 @@ footer {
     footer {
         padding: 1rem 0rem;
 
+    }
+
+    .course-logo {
+        top: -1.5rem;
+    }
+
+    h2 {
+        margin-top: 2.2rem;
+    }
+
+    .color-box-words {
+        margin-top: 2rem;
     }
 
 
