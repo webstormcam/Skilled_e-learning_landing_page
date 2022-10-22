@@ -99,6 +99,7 @@ h1 {
     width: 100%;
     padding: 1rem;
     gap: 5rem;
+    grid-template-rows: 1fr 200px 200px 200px;
     max-width: 500px;
 
 }
@@ -112,6 +113,7 @@ h1 {
     padding: 2rem;
     position: relative;
     border-radius: 1.2rem;
+    padding-top: 3rem;
 
 
 }
@@ -185,6 +187,10 @@ footer {
 
 .get-started-crazy-color:hover {
     opacity: 0.5;
+}
+
+.course-logo {
+    top: -1.8rem;
 }
 
 
@@ -294,6 +300,10 @@ footer {
     .get-started-link {
         position: absolute;
         bottom: 2rem;
+    }
+
+    .box {
+        padding-top: 2rem;
     }
 
 
