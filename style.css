@@ -99,7 +99,7 @@ h1 {
     width: 100%;
     padding: 1rem;
     gap: 5rem;
-    grid-template-rows: 1fr 200px 200px 200px;
+    /* grid-template-rows: 1fr 200px 200px 200px; */
     max-width: 500px;
 
 }
